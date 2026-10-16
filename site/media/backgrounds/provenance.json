@@ -1,0 +1,12 @@
+{
+  "kind": "AI-generated atmosphere concepts, not project footage or Blender process screenshots",
+  "generator": "built-in ImageGen",
+  "sourceDirectory": "design/background-concepts/v1",
+  "mappings": {
+    "bridge": "01-rainwell.png -> rainwell-{960,1672}.webp",
+    "quirrel": "02-misty-arcade.png -> misty-arcade-{960,1672}.webp",
+    "marissa": "03-violet-echo.png -> violet-echo-{960,1672}.webp"
+  },
+  "conversion": "FFmpeg WebP encoding and responsive downsampling only; original PNGs preserved",
+  "plaza": "existing solid chapter background preserved"
+}
