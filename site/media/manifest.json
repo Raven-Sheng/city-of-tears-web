@@ -1,0 +1,839 @@
+{
+  "generated": "2026-10-15",
+  "master": {
+    "path": "Reference/Video.mp4",
+    "sha256": "d61b010cc50fbdb5f550f652cd92935f2fee53386c7790a366970eab6f6152fb",
+    "probe": {
+      "bytes": 669869865,
+      "duration": 178.004,
+      "video": {
+        "codec": "hevc",
+        "profile": "Main",
+        "width": 2560,
+        "height": 1440,
+        "fps": "120/1",
+        "frames": 21360,
+        "pix_fmt": "yuv420p",
+        "bitrate": 29899722
+      },
+      "audio": {
+        "codec": "aac",
+        "sample_rate": 44100,
+        "channels": 2,
+        "bitrate": 192457
+      }
+    },
+    "note": "母版只读，网页不请求且 dist 不包含"
+  },
+  "stills": [
+    {
+      "id": "hero-poster",
+      "source": "Reference/Video.mp4",
+      "time": 6.25,
+      "crop": null,
+      "purpose": "首屏海报（短循环第一帧）",
+      "avif_quality": 76,
+      "webp_quality": 84,
+      "files": [
+        {
+          "path": "hero/hero-poster-1920.avif",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 135408
+        },
+        {
+          "path": "hero/hero-poster-1920.webp",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 130426
+        },
+        {
+          "path": "hero/hero-poster-960.avif",
+          "width": 960,
+          "height": 540,
+          "bytes": 44206
+        },
+        {
+          "path": "hero/hero-poster-960.webp",
+          "width": 960,
+          "height": 540,
+          "bytes": 39848
+        }
+      ]
+    },
+    {
+      "id": "film-poster",
+      "source": "Reference/Video.mp4",
+      "time": 2.5,
+      "crop": null,
+      "purpose": "完整影片播放器海报（成片片头字幕帧，含原片署名）",
+      "avif_quality": 76,
+      "webp_quality": 84,
+      "files": [
+        {
+          "path": "film/film-poster-1920.avif",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 135680
+        },
+        {
+          "path": "film/film-poster-1920.webp",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 125978
+        },
+        {
+          "path": "film/film-poster-960.avif",
+          "width": 960,
+          "height": 540,
+          "bytes": 47996
+        },
+        {
+          "path": "film/film-poster-960.webp",
+          "width": 960,
+          "height": 540,
+          "bytes": 42898
+        }
+      ]
+    },
+    {
+      "id": "city-bridge",
+      "source": "Reference/Video.mp4",
+      "time": 12.5,
+      "crop": null,
+      "purpose": "城市片段：下层长桥（S01 LowerBridge）",
+      "avif_quality": 76,
+      "webp_quality": 84,
+      "files": [
+        {
+          "path": "city/city-bridge-1920.avif",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 152357
+        },
+        {
+          "path": "city/city-bridge-1920.webp",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 135666
+        },
+        {
+          "path": "city/city-bridge-960.avif",
+          "width": 960,
+          "height": 540,
+          "bytes": 53829
+        },
+        {
+          "path": "city/city-bridge-960.webp",
+          "width": 960,
+          "height": 540,
+          "bytes": 47238
+        }
+      ]
+    },
+    {
+      "id": "city-plaza",
+      "source": "Reference/Video.mp4",
+      "time": 24.0,
+      "crop": null,
+      "purpose": "城市片段：雕像广场（S01 FountainPlaza）",
+      "avif_quality": 66,
+      "webp_quality": 84,
+      "files": [
+        {
+          "path": "city/city-plaza-1920.avif",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 109435
+        },
+        {
+          "path": "city/city-plaza-1920.webp",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 143778
+        },
+        {
+          "path": "city/city-plaza-960.avif",
+          "width": 960,
+          "height": 540,
+          "bytes": 42659
+        },
+        {
+          "path": "city/city-plaza-960.webp",
+          "width": 960,
+          "height": 540,
+          "bytes": 55776
+        }
+      ]
+    },
+    {
+      "id": "city-quirrel",
+      "source": "Reference/Video.mp4",
+      "time": 51.5,
+      "crop": null,
+      "purpose": "城市片段：左雨井·奎若与长椅（S02 LeftWell）",
+      "avif_quality": 66,
+      "webp_quality": 84,
+      "files": [
+        {
+          "path": "city/city-quirrel-1920.avif",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 19718
+        },
+        {
+          "path": "city/city-quirrel-1920.webp",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 25438
+        },
+        {
+          "path": "city/city-quirrel-960.avif",
+          "width": 960,
+          "height": 540,
+          "bytes": 8583
+        },
+        {
+          "path": "city/city-quirrel-960.webp",
+          "width": 960,
+          "height": 540,
+          "bytes": 10052
+        }
+      ]
+    },
+    {
+      "id": "city-marissa",
+      "source": "Reference/Video.mp4",
+      "time": 140.5,
+      "crop": null,
+      "purpose": "城市片段：欢乐之屋·玛丽莎（S06 HouseOfPleasure）",
+      "avif_quality": 66,
+      "webp_quality": 84,
+      "files": [
+        {
+          "path": "city/city-marissa-1920.avif",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 42594
+        },
+        {
+          "path": "city/city-marissa-1920.webp",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 55104
+        },
+        {
+          "path": "city/city-marissa-960.avif",
+          "width": 960,
+          "height": 540,
+          "bytes": 17472
+        },
+        {
+          "path": "city/city-marissa-960.webp",
+          "width": 960,
+          "height": 540,
+          "bytes": 21796
+        }
+      ]
+    },
+    {
+      "id": "ref-plaza-film",
+      "source": "Reference/Video.mp4",
+      "time": 27.5,
+      "crop": [
+        420,
+        48,
+        1760,
+        1344
+      ],
+      "purpose": "参考对照：雕像广场项目画面（裁切到与参考相同比例）",
+      "avif_quality": 66,
+      "webp_quality": 84,
+      "files": [
+        {
+          "path": "ref/ref-plaza-film-1280.avif",
+          "width": 1280,
+          "height": 977,
+          "bytes": 78520
+        },
+        {
+          "path": "ref/ref-plaza-film-1280.webp",
+          "width": 1280,
+          "height": 977,
+          "bytes": 97728
+        },
+        {
+          "path": "ref/ref-plaza-film-640.avif",
+          "width": 640,
+          "height": 489,
+          "bytes": 30673
+        },
+        {
+          "path": "ref/ref-plaza-film-640.webp",
+          "width": 640,
+          "height": 489,
+          "bytes": 37838
+        }
+      ]
+    },
+    {
+      "id": "ref-bridge-film",
+      "source": "Reference/Video.mp4",
+      "time": 77.0,
+      "crop": null,
+      "purpose": "参考对照：上层长桥项目画面（S04 UpperBridge）",
+      "avif_quality": 66,
+      "webp_quality": 84,
+      "files": [
+        {
+          "path": "ref/ref-bridge-film-1600.avif",
+          "width": 1600,
+          "height": 900,
+          "bytes": 67162
+        },
+        {
+          "path": "ref/ref-bridge-film-1600.webp",
+          "width": 1600,
+          "height": 900,
+          "bytes": 87780
+        },
+        {
+          "path": "ref/ref-bridge-film-800.avif",
+          "width": 800,
+          "height": 450,
+          "bytes": 25662
+        },
+        {
+          "path": "ref/ref-bridge-film-800.webp",
+          "width": 800,
+          "height": 450,
+          "bytes": 33648
+        }
+      ]
+    },
+    {
+      "id": "note-layout",
+      "source": "Reference/Video.mp4",
+      "time": 8.5,
+      "crop": null,
+      "purpose": "制作手记：区域布局",
+      "avif_quality": 76,
+      "webp_quality": 84,
+      "files": [
+        {
+          "path": "notes/note-layout-1600.avif",
+          "width": 1600,
+          "height": 900,
+          "bytes": 127740
+        },
+        {
+          "path": "notes/note-layout-1600.webp",
+          "width": 1600,
+          "height": 900,
+          "bytes": 124480
+        },
+        {
+          "path": "notes/note-layout-800.avif",
+          "width": 800,
+          "height": 450,
+          "bytes": 42889
+        },
+        {
+          "path": "notes/note-layout-800.webp",
+          "width": 800,
+          "height": 450,
+          "bytes": 39248
+        }
+      ]
+    },
+    {
+      "id": "note-architecture",
+      "source": "Reference/Video.mp4",
+      "time": 41.0,
+      "crop": null,
+      "purpose": "制作手记：程序化建筑（左雨井立面）",
+      "avif_quality": 66,
+      "webp_quality": 84,
+      "files": [
+        {
+          "path": "notes/note-architecture-1600.avif",
+          "width": 1600,
+          "height": 900,
+          "bytes": 54964
+        },
+        {
+          "path": "notes/note-architecture-1600.webp",
+          "width": 1600,
+          "height": 900,
+          "bytes": 71080
+        },
+        {
+          "path": "notes/note-architecture-800.avif",
+          "width": 800,
+          "height": 450,
+          "bytes": 20279
+        },
+        {
+          "path": "notes/note-architecture-800.webp",
+          "width": 800,
+          "height": 450,
+          "bytes": 25748
+        }
+      ]
+    },
+    {
+      "id": "note-weather",
+      "source": "Reference/Video.mp4",
+      "time": 124.0,
+      "crop": null,
+      "purpose": "制作手记：材质灯光与天气（东城雨井）",
+      "avif_quality": 76,
+      "webp_quality": 84,
+      "files": [
+        {
+          "path": "notes/note-weather-1600.avif",
+          "width": 1600,
+          "height": 900,
+          "bytes": 95555
+        },
+        {
+          "path": "notes/note-weather-1600.webp",
+          "width": 1600,
+          "height": 900,
+          "bytes": 88442
+        },
+        {
+          "path": "notes/note-weather-800.avif",
+          "width": 800,
+          "height": 450,
+          "bytes": 36897
+        },
+        {
+          "path": "notes/note-weather-800.webp",
+          "width": 800,
+          "height": 450,
+          "bytes": 33670
+        }
+      ]
+    },
+    {
+      "id": "take-s01",
+      "source": "Reference/Video.mp4",
+      "time": 16.5,
+      "crop": null,
+      "purpose": "镜头 S01 雨腔入城·雕像广场",
+      "avif_quality": 66,
+      "webp_quality": 84,
+      "files": [
+        {
+          "path": "takes/take-s01-640.avif",
+          "width": 640,
+          "height": 360,
+          "bytes": 17918
+        },
+        {
+          "path": "takes/take-s01-640.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 21684
+        }
+      ]
+    },
+    {
+      "id": "take-s02",
+      "source": "Reference/Video.mp4",
+      "time": 33.0,
+      "crop": null,
+      "purpose": "镜头 S02 西南洞穴·左雨井·奎若",
+      "avif_quality": 66,
+      "webp_quality": 84,
+      "files": [
+        {
+          "path": "takes/take-s02-640.avif",
+          "width": 640,
+          "height": 360,
+          "bytes": 11851
+        },
+        {
+          "path": "takes/take-s02-640.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 12242
+        }
+      ]
+    },
+    {
+      "id": "take-s03",
+      "source": "Reference/Video.mp4",
+      "time": 60.0,
+      "crop": null,
+      "purpose": "镜头 S03 西侧低廊·地面井口·绿色中庭",
+      "avif_quality": 66,
+      "webp_quality": 84,
+      "files": [
+        {
+          "path": "takes/take-s03-640.avif",
+          "width": 640,
+          "height": 360,
+          "bytes": 10217
+        },
+        {
+          "path": "takes/take-s03-640.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 10666
+        }
+      ]
+    },
+    {
+      "id": "take-s03b",
+      "source": "Reference/Video.mp4",
+      "time": 66.5,
+      "crop": null,
+      "purpose": "镜头 S03B 西街拱廊侧向跟拍·人面浮雕室",
+      "avif_quality": 66,
+      "webp_quality": 84,
+      "files": [
+        {
+          "path": "takes/take-s03b-640.avif",
+          "width": 640,
+          "height": 360,
+          "bytes": 6508
+        },
+        {
+          "path": "takes/take-s03b-640.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 7610
+        }
+      ]
+    },
+    {
+      "id": "take-s04",
+      "source": "Reference/Video.mp4",
+      "time": 88.0,
+      "crop": null,
+      "purpose": "镜头 S04 西站·上层长桥·桥东门厅·圣所",
+      "avif_quality": 66,
+      "webp_quality": 84,
+      "files": [
+        {
+          "path": "takes/take-s04-640.avif",
+          "width": 640,
+          "height": 360,
+          "bytes": 9677
+        },
+        {
+          "path": "takes/take-s04-640.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 10532
+        }
+      ]
+    },
+    {
+      "id": "take-s05",
+      "source": "Reference/Video.mp4",
+      "time": 100.0,
+      "crop": null,
+      "purpose": "镜头 S05 塔楼吊灯厅……东城雨井",
+      "avif_quality": 66,
+      "webp_quality": 84,
+      "files": [
+        {
+          "path": "takes/take-s05-640.avif",
+          "width": 640,
+          "height": 360,
+          "bytes": 11653
+        },
+        {
+          "path": "takes/take-s05-640.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 13136
+        }
+      ]
+    },
+    {
+      "id": "take-s06",
+      "source": "Reference/Video.mp4",
+      "time": 131.5,
+      "crop": null,
+      "purpose": "镜头 S06 欢乐之屋门厅·玛丽莎舞台",
+      "avif_quality": 66,
+      "webp_quality": 84,
+      "files": [
+        {
+          "path": "takes/take-s06-640.avif",
+          "width": 640,
+          "height": 360,
+          "bytes": 8578
+        },
+        {
+          "path": "takes/take-s06-640.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 9726
+        }
+      ]
+    },
+    {
+      "id": "take-s07",
+      "source": "Reference/Video.mp4",
+      "time": 151.0,
+      "crop": null,
+      "purpose": "镜头 S07 东塔……归于雨幕",
+      "avif_quality": 66,
+      "webp_quality": 84,
+      "files": [
+        {
+          "path": "takes/take-s07-640.avif",
+          "width": 640,
+          "height": 360,
+          "bytes": 10515
+        },
+        {
+          "path": "takes/take-s07-640.webp",
+          "width": 640,
+          "height": 360,
+          "bytes": 11288
+        }
+      ]
+    },
+    {
+      "id": "ending",
+      "source": "Reference/Video.mp4",
+      "time": 176.0,
+      "crop": null,
+      "purpose": "尾声：后拉全景",
+      "avif_quality": 76,
+      "webp_quality": 84,
+      "files": [
+        {
+          "path": "ending/ending-1920.avif",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 157129
+        },
+        {
+          "path": "ending/ending-1920.webp",
+          "width": 1920,
+          "height": 1080,
+          "bytes": 140028
+        },
+        {
+          "path": "ending/ending-960.avif",
+          "width": 960,
+          "height": 540,
+          "bytes": 55680
+        },
+        {
+          "path": "ending/ending-960.webp",
+          "width": 960,
+          "height": 540,
+          "bytes": 47872
+        }
+      ]
+    },
+    {
+      "id": "ref-plaza-game",
+      "source": "https://github.com/Raven-Sheng/city-of-tears-3Dversion/blob/main/CityOfTears_Reference/11_Lower_City/Lower_City_statue.jpg",
+      "source_sha256": "21310ae119b05fb5e247e433b861367851299709c9dbdb918291ea63a9d4c90c",
+      "crop": [
+        0,
+        48,
+        1760,
+        1344
+      ],
+      "purpose": "参考对照：雕像广场游戏截图（裁去右侧未显示的黑区与上下黑边）",
+      "credit": "《空洞骑士》游戏截图 © Team Cherry，来自项目仓库参考目录",
+      "files": [
+        {
+          "path": "ref/ref-plaza-game-1280.avif",
+          "width": 1280,
+          "height": 977,
+          "bytes": 86590
+        },
+        {
+          "path": "ref/ref-plaza-game-1280.webp",
+          "width": 1280,
+          "height": 977,
+          "bytes": 112152
+        },
+        {
+          "path": "ref/ref-plaza-game-640.avif",
+          "width": 640,
+          "height": 489,
+          "bytes": 29235
+        },
+        {
+          "path": "ref/ref-plaza-game-640.webp",
+          "width": 640,
+          "height": 489,
+          "bytes": 37648
+        }
+      ]
+    },
+    {
+      "id": "ref-bridge-game",
+      "source": "https://github.com/Raven-Sheng/city-of-tears-3Dversion/blob/main/CityOfTears_Reference/04_Bridges/Bridges_total.jpg",
+      "source_sha256": "861f57f607c1224400399118d506ec402dc23a0fa49dff3699ed2fd9d68cd75d",
+      "crop": [
+        0,
+        236,
+        2520,
+        1032
+      ],
+      "purpose": "参考对照：上层长桥游戏截图（裁去上下黑边）",
+      "credit": "《空洞骑士》游戏截图 © Team Cherry，来自项目仓库参考目录",
+      "files": [
+        {
+          "path": "ref/ref-bridge-game-1600.avif",
+          "width": 1600,
+          "height": 655,
+          "bytes": 85150
+        },
+        {
+          "path": "ref/ref-bridge-game-1600.webp",
+          "width": 1600,
+          "height": 655,
+          "bytes": 107620
+        },
+        {
+          "path": "ref/ref-bridge-game-800.avif",
+          "width": 800,
+          "height": 328,
+          "bytes": 28150
+        },
+        {
+          "path": "ref/ref-bridge-game-800.webp",
+          "width": 800,
+          "height": 328,
+          "bytes": 34460
+        }
+      ]
+    }
+  ],
+  "hero": [
+    {
+      "id": "hero-loop-1080p",
+      "source": "Reference/Video.mp4",
+      "source_range": [
+        5.25,
+        14.25
+      ],
+      "crossfade_seconds": 1.0,
+      "params": "-filter_complex [0:v]fps=24,split=3[a][b][c];[a]trim=0:1.0,setpts=PTS-STARTPTS[head];[b]trim=1.0:8.0,setpts=PTS-STARTPTS[body];[c]trim=8.0:9.0,setpts=PTS-STARTPTS[tail];[tail][head]xfade=transition=fade:duration=1.0:offset=0[blend];[body][blend]concat=n=2:v=1:a=0,format=yuv420p[loop];[loop]scale=1920:1080:flags=lanczos[out] -map [out] -an -c:v libx264 -preset veryslow -crf 24 -maxrate 5M -bufsize 8M -profile:v high -pix_fmt yuv420p -tune film -x264-params aq-mode=3 -g 48 -color_primaries bt709 -color_trc bt709 -colorspace bt709 -movflags +faststart hero-loop-1080p.mp4",
+      "path": "hero/hero-loop-1080p.mp4",
+      "probe": {
+        "bytes": 4627902,
+        "duration": 8.0,
+        "video": {
+          "codec": "h264",
+          "profile": "High",
+          "width": 1920,
+          "height": 1080,
+          "fps": "24/1",
+          "frames": 192,
+          "pix_fmt": "yuv420p",
+          "bitrate": 4624799
+        }
+      }
+    },
+    {
+      "id": "hero-loop-720p",
+      "source": "Reference/Video.mp4",
+      "source_range": [
+        5.25,
+        14.25
+      ],
+      "crossfade_seconds": 1.0,
+      "params": "-filter_complex [0:v]fps=24,split=3[a][b][c];[a]trim=0:1.0,setpts=PTS-STARTPTS[head];[b]trim=1.0:8.0,setpts=PTS-STARTPTS[body];[c]trim=8.0:9.0,setpts=PTS-STARTPTS[tail];[tail][head]xfade=transition=fade:duration=1.0:offset=0[blend];[body][blend]concat=n=2:v=1:a=0,format=yuv420p[loop];[loop]scale=1280:720:flags=lanczos[out] -map [out] -an -c:v libx264 -preset veryslow -crf 24 -maxrate 3M -bufsize 8M -profile:v high -pix_fmt yuv420p -tune film -x264-params aq-mode=3 -g 48 -color_primaries bt709 -color_trc bt709 -colorspace bt709 -movflags +faststart hero-loop-720p.mp4",
+      "path": "hero/hero-loop-720p.mp4",
+      "probe": {
+        "bytes": 3159042,
+        "duration": 8.0,
+        "video": {
+          "codec": "h264",
+          "profile": "High",
+          "width": 1280,
+          "height": 720,
+          "fps": "24/1",
+          "frames": 192,
+          "pix_fmt": "yuv420p",
+          "bitrate": 3155972
+        }
+      }
+    }
+  ],
+  "film": [
+    {
+      "id": "film-1080p30",
+      "source": "Reference/Video.mp4",
+      "path": "film/city-of-tears-1080p30.mp4",
+      "params": "-map 0:v:0 -map 0:a:0 -vf fps=30,scale=1920:1080:flags=lanczos -c:v libx264 -preset slow -crf 22 -tune film -x264-params aq-mode=3 -profile:v high -level 4.1 -pix_fmt yuv420p -g 60 -color_primaries bt709 -color_trc bt709 -colorspace bt709 -c:a copy -movflags +faststart",
+      "probe": {
+        "bytes": 138977818,
+        "duration": 178.004,
+        "video": {
+          "codec": "h264",
+          "profile": "High",
+          "width": 1920,
+          "height": 1080,
+          "fps": "30/1",
+          "frames": 5340,
+          "pix_fmt": "yuv420p",
+          "bitrate": 6045134
+        },
+        "audio": {
+          "codec": "aac",
+          "sample_rate": 44100,
+          "channels": 2,
+          "bitrate": 192457
+        }
+      },
+      "sha256": "ba06e606635d3617bed77370843f586ce3886b3fc145ee5b5cf6044aa17fa4a5"
+    }
+  ],
+  "film_trial30": [
+    {
+      "path": "tools/.cache/trials/city-of-tears-1080p30-trial.mp4",
+      "deployed": false,
+      "params": "-map 0:v:0 -map 0:a:0 -vf fps=30,scale=1920:1080:flags=lanczos -c:v libx264 -preset slow -crf 22 -tune film -x264-params aq-mode=3 -profile:v high -level 4.1 -pix_fmt yuv420p -g 60 -color_primaries bt709 -color_trc bt709 -colorspace bt709 -c:a copy -movflags +faststart",
+      "probe": {
+        "bytes": 138977818,
+        "duration": 178.004,
+        "video": {
+          "codec": "h264",
+          "profile": "High",
+          "width": 1920,
+          "height": 1080,
+          "fps": "30/1",
+          "frames": 5340,
+          "pix_fmt": "yuv420p",
+          "bitrate": 6045134
+        },
+        "audio": {
+          "codec": "aac",
+          "sample_rate": 44100,
+          "channels": 2,
+          "bitrate": 192457
+        }
+      }
+    }
+  ],
+  "previous_export": {
+    "path": "tools/.cache/alternates/city-of-tears-1080p24.mp4",
+    "note": "Claude 的原有 24 fps 派生版完整保留，不包含在发布目录"
+  },
+  "audited": "2026-10-16",
+  "share_cover": {
+    "path": "share-cover.png",
+    "source": "hero/hero-poster-1920.webp",
+    "master_time": 6.25,
+    "layout": "tools/share-cover.mjs",
+    "width": 1200,
+    "height": 630,
+    "bytes": 701886
+  }
+}
