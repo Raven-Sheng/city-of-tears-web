@@ -8,5 +8,12 @@
     "quirrel": "02-misty-arcade.png -> misty-arcade-{960,1672}.webp",
     "marissa": "03-violet-echo.png -> violet-echo-{960,1672}.webp"
   },
+  "chapters": {
+    "sourceDirectory": "design/background-concepts/v2",
+    "film": "05-film-rain-gallery.png -> film-rain-gallery-{960,1672}.webp",
+    "reference": "06-reference-misty-city.png -> reference-misty-city-{960,1672}.webp",
+    "making": "07-making-stone-leaf-window.png -> making-stone-window-{960,1672}.webp",
+    "meaning": "Decorative AI atmosphere only. Foreground film, game references and finished-frame details are the original project assets."
+  },
   "conversion": "FFmpeg WebP encoding and responsive downsampling only; original PNGs preserved"
 }
